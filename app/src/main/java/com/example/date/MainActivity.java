@@ -20,7 +20,6 @@ public class MainActivity extends Activity{
     // nowDate 변수에 값을 저장한다.
     String formatDate = sdfNow.format(date);
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
