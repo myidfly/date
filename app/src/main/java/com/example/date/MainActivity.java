@@ -21,6 +21,7 @@ public class MainActivity extends Activity{
     String formatDate = sdfNow.format(date);
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
