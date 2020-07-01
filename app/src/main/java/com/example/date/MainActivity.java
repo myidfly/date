@@ -26,7 +26,6 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
 
 
-
         final TextView textView = findViewById(R.id.textView);
         Button btn = findViewById(R.id.button);
 
