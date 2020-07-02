@@ -38,6 +38,16 @@ public class MainActivity extends Activity{
         btn.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
+                long now = System.currentTimeMillis();
+
+                Date date = new Date(now);
+
+
+                SimpleDateFormat sdfNow = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+
+
+                String formatDate = sdfNow.format(date);
+
                 textView.setText(formatDate);
 
             }
